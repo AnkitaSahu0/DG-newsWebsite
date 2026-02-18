@@ -64,7 +64,7 @@ export default function Hero() {
                 alt="Video Thumbnail"
                 width={500}
                 height={500}
-                className="w-full h-[350px] lg:h-[450px] object-contain"
+                className="w-full h-[350px] lg:h-[450px] object-fill"
               />
 
               <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
