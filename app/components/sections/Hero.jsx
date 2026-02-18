@@ -77,12 +77,23 @@ export default function Hero() {
               </div>
             </div>
           ) : (
-            <video
-              src="https://www.youtube.com/embed/05KziHStKF8" 
-              controls
-              autoPlay
-              className="w-full h-[350px] lg:h-[450px] object-cover"
-            />
+            // <video
+            //   src="https://www.youtube.com/embed/05KziHStKF8" 
+            //   controls
+            //   autoPlay
+            //   className="w-full h-[350px] lg:h-[450px] object-cover"
+            // />
+    <div className="w-full h-[350px] lg:h-[450px] rounded-xl overflow-hidden">
+  <iframe
+    src="https://www.youtube.com/embed/05KziHStKF8"
+    className="w-full h-full"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
           )}
         </div>
       </div>
