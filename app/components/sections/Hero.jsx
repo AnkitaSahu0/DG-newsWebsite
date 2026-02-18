@@ -60,7 +60,7 @@ export default function Hero() {
           {!playVideo ? (
             <div className="relative">
               <Image
-                src="/images/video-thumbnail.jpg"
+                src="/images/img5.jpeg"
                 alt="Video Thumbnail"
                 width={500}
                 height={500}
