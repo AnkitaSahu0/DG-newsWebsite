@@ -62,10 +62,10 @@ export default function Navbar() {
             ))}
 
             <Link
-              href="/shortlist/nominate"
+              href="/signup"
               className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition"
             >
-              Nominate
+              SignUp
             </Link>
           </div>
 
